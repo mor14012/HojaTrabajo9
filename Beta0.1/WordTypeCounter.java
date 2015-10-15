@@ -1,10 +1,23 @@
 /*
-UVG
-Algoritmos y Estructuras de Datos - 2011
-Hoja de trabajo 7
-Autor: Eduardo Castellanos
+Universidad del Valle de Guatemala
+Algoritmos y Estructura de Datos
+Seccion: 10
+Diego Morales. Carne: 14012
+Julio Gonzalez. Carne: 14096
+Diego Sosa. Carne: 14735
+15/10/2015
+Hoja de Trabajo 9
+*/
 
-Descripcion: Programa principal. 
+
+/*
+Codigo fuente obtenido de:
+	UVG
+	Algoritmos y Estructuras de Datos - 2011
+	Hoja de trabajo 7
+	Autor: Eduardo Castellanos
+
+	Descripcion: Programa principal. 
 */
 import java.io.*;
 
