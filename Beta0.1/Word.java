@@ -4,7 +4,7 @@ Algoritmos y Estructuras de Datos - 2011
 Hoja de trabajo 7 
 Autor: Eduardo Castellanos
 
-Descripción: Word. Clase para almacenar las palabras junto con su tipo. 
+Descripcion: Word. Clase para almacenar las palabras junto con su tipo. 
 */
 class Word implements Comparable<Word> {
 	private String word;
@@ -34,7 +34,7 @@ class Word implements Comparable<Word> {
 		return (obj instanceof Word && getWord().equals(((Word)obj).getWord()));
 	}
 	
-	// Métodos de acceso..
+	// Metodos de acceso..
 	public void setWord(String word)
 	{
 		this.word=word;
