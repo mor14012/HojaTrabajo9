@@ -19,8 +19,8 @@ class WordSetFactory {
 	{
 	    if (tipo == 1)
 		    return new SimpleSet();
-		//if (tipo == 2)
-			//return new RBT();
+		if (tipo == 2)
+			return new RedBlackTreeSet();
 		    // aqui se regresara el set empleando sus implementaciones:
 			// if tipo == 2 cree una instancia para un Wordset implementao con Red Black Tree
 			// if tipo == 3 cree una instancia para un Wordset implementado con Splay Tree
