@@ -1,0 +1,4 @@
+Al analizar los tiempos de las 4 implementaciones realizadas el grupo de trabajo llego a la conclusión que la más adecuada para este programa en específico es Hash Table.
+Hash Table  fue la implementación que menor tiempo realizo al cargar y analizar datos en comparación con SplayTree, TreeMap y BRT. 
+Esto se debe a que debido a la estructura de las Hash Table es fácil encontrar un tipo de dato por una clave y al haber una carga o acumulación de estos y exista 
+una colisión por lo cual se dividen en arrays que permiten que el tiempo de recorrido y guardado se mantengan constantes y en el peor de los casos que llegue a ser lineal en lo que es la complejidad de espacio y tiempo. 
