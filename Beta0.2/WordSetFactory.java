@@ -17,17 +17,17 @@ class WordSetFactory {
 	
 	public static WordSet generateSet(int tipo)
 	{
-	    if (tipo == 1)
-		    return new SimpleSet();
+		if (tipo == 1)
+			return new SimpleSet();
 		if (tipo == 2)
 			return new RedBlackTreeSet();
-		    // aqui se regresara el set empleando sus implementaciones:
-			// if tipo == 2 cree una instancia para un Wordset implementao con Red Black Tree
-			// if tipo == 3 cree una instancia para un Wordset implementado con Splay Tree
-			// if tipo == 4 cree una instancia para un Wordset implementado con Hash table
-			// if tipo == 5 cree una instancia para un Wordset implementado con TreeMap
-			
-			return null; // modificarlo para que regrese la implementacion seleccionada
+		if (tipo == 3)
+                return new STI();
+		if (tipo == 4)
+            return new Hashtable();
+		if (tipo == 5)
+                return new TreeMapp();
+		return null; // modificarlo para que regrese la implementacion seleccionada
 	}
 	
 	
